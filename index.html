@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+
+  <title>Age calculator app</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="form" action="#">
+      <ul>
+        <li>
+          <p class="input-title">day</p>
+          <input name="day" type="number" placeholder="dd">
+          <p class="error-text"></p>
+        </li>
+        <li>
+          <p class="input-title">month</p>
+          <input name="month" type="number" placeholder="mm">
+          <p class="error-text"></p>
+        </li>
+        <li>
+          <p class="input-title">year</p>
+          <input name="year" type="number" placeholder="yyyy">
+          <p class="error-text"></p>
+        </li>
+      </ul>
+      <button name="button">
+        <img src="./src/images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+
+    <div class="result-area">
+      <div class="result">
+        <h1 id="result-year">- -</h1>
+        <h1>years</h1>
+      </div>
+      <div class="result">
+        <h1 id="result-months">- -</h1>
+        <h1>months</h1>
+      </div>
+      <div class="result">
+        <h1 id="result-days">- -</h1>
+        <h1>days</h1>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/js/index.js"></script>
+</body>
+
+</html>

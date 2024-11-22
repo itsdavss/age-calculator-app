@@ -1,0 +1,47 @@
+@media (max-width: 450px) {
+
+    .card {
+        padding: 40px 25px;
+        max-width: 400px;
+        width: 90%;
+        max-height: 500px;
+        border-radius: 22px 22px 120px 22px;
+        align-items: center;
+    }
+
+    .card .form ul {
+        gap: 10px;
+    }
+
+    .card .form ul li input {
+        width: 95px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .card .form ul li .error-text{
+        font-size: 9px;
+        margin-bottom: 20px;
+    }
+
+    .card .form button {
+        width: 70px;
+        height: 70px;
+        top: 140px;
+        right: 37%;
+    }
+
+    .card .form button img {
+        width: 30px;
+    }
+
+    .result-area .result {
+        font-size: 27px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .result-area .result h1:first-child{
+        margin-right: 10px;
+    }
+}
