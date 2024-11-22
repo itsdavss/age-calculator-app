@@ -47,7 +47,7 @@ body {
     height: 100px;
     position: absolute;
     right: 0;
-    top: 130px;
+    top: 110px;
     cursor: pointer;
     transition: 0.2s ease-in;
 }
